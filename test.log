@@ -1,0 +1,537 @@
+date and time
+Tue Apr 28 09:51:20 CST 2020
+--------------------------------------------------------------------------------
+os version
+Ubuntu 20.04 LTS
+Kernel:
+Linux evian-linux-server 5.4.0-26-generic #30-Ubuntu SMP Mon Apr 20 16:58:30 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+--------------------------------------------------------------------------------
+hardware information
+CPU
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 79
+model name	: Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz
+stepping	: 1
+microcode	: 0x1
+cpu MHz		: 2499.996
+cache size	: 40960 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa itlb_multihit
+bogomips	: 4999.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+------------------------------------
+Memory:
+MemTotal:        2035444 kB
+MemFree:          804748 kB
+MemAvailable:    1659652 kB
+Buffers:          214900 kB
+Cached:           735440 kB
+SwapCached:            0 kB
+Active:           853528 kB
+Inactive:         225032 kB
+Active(anon):     126680 kB
+Inactive(anon):    11708 kB
+Active(file):     726848 kB
+Inactive(file):   213324 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                28 kB
+Writeback:             0 kB
+AnonPages:        128256 kB
+Mapped:           178652 kB
+Shmem:             14996 kB
+KReclaimable:      92568 kB
+Slab:             127656 kB
+SReclaimable:      92568 kB
+SUnreclaim:        35088 kB
+KernelStack:        3388 kB
+PageTables:         3340 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1017720 kB
+Committed_AS:    1614964 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:        9692 kB
+VmallocChunk:          0 kB
+Percpu:              612 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:       83840 kB
+DirectMap2M:     2013184 kB
+DirectMap1G:           0 kB
+--------------------------------------------------------------------------------
+uptime
+09:54:12 up 3 days, 23:12,  1 user,  load average: 0.02, 0.01, 0.00
+--------------------------------------------------------------------------------
+services information
+ [ - ]  aegis
+ [ + ]  apparmor
+ [ + ]  atd
+ [ - ]  bootmisc.sh
+ [ - ]  cgroupfs-mount
+ [ - ]  checkfs.sh
+ [ - ]  checkroot-bootclean.sh
+ [ - ]  checkroot.sh
+ [ + ]  chrony
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ + ]  dbus
+ [ + ]  docker
+ [ - ]  fio
+ [ + ]  grub-common
+ [ - ]  hostname.sh
+ [ - ]  hwclock.sh
+ [ - ]  irqbalance
+ [ - ]  keyboard-setup.dpkg-bak
+ [ - ]  keyboard-setup.sh
+ [ - ]  killprocs
+ [ + ]  kmod
+ [ - ]  mountall-bootclean.sh
+ [ - ]  mountall.sh
+ [ - ]  mountdevsubfs.sh
+ [ - ]  mountkernfs.sh
+ [ - ]  mountnfs-bootclean.sh
+ [ - ]  mountnfs.sh
+ [ + ]  networking
+ [ + ]  nscd
+ [ - ]  ntp
+ [ - ]  ondemand
+ [ - ]  plymouth
+ [ - ]  plymouth-log
+ [ + ]  procps
+ [ + ]  rc.local
+ [ + ]  resolvconf
+ [ - ]  rsync
+ [ + ]  rsyslog
+ [ - ]  sendsigs
+ [ + ]  ssh
+ [ + ]  sysstat
+ [ + ]  udev
+ [ + ]  ufw
+ [ - ]  umountfs
+ [ - ]  umountnfs.sh
+ [ - ]  umountroot
+ [ + ]  unattended-upgrades
+ [ - ]  urandom
+ [ - ]  uuidd
+--------------------------------------------------------------------------------
+nic information
+br-df66b860bd7e: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.22.0.1  netmask 255.255.0.0  broadcast 172.22.255.255
+        inet6 fe80::42:aff:fe18:2fc3  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:0a:18:2f:c3  txqueuelen 0  (Ethernet)
+        RX packets 418  bytes 43476 (43.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 621  bytes 56181 (56.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+docker0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        inet6 fe80::42:43ff:fecc:d894  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:43:cc:d8:94  txqueuelen 0  (Ethernet)
+        RX packets 5027  bytes 8657550 (8.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4513  bytes 317991 (317.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.19.160.29  netmask 255.255.240.0  broadcast 172.19.175.255
+        inet6 fe80::216:3eff:fe0c:3e2d  prefixlen 64  scopeid 0x20<link>
+        ether 00:16:3e:0c:3e:2d  txqueuelen 1000  (Ethernet)
+        RX packets 60962  bytes 9055076 (9.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 50444  bytes 16314148 (16.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4967  bytes 413547 (413.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4967  bytes 413547 (413.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+veth159c258: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::4c86:99ff:fede:5fd4  prefixlen 64  scopeid 0x20<link>
+        ether 4e:86:99:de:5f:d4  txqueuelen 0  (Ethernet)
+        RX packets 649  bytes 64501 (64.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 960  bytes 79402 (79.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+veth36f64a0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::903a:ddff:fe25:6305  prefixlen 64  scopeid 0x20<link>
+        ether 92:3a:dd:25:63:05  txqueuelen 0  (Ethernet)
+        RX packets 238  bytes 16231 (16.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 461  bytes 31405 (31.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vethec3f8f4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::10de:63ff:fe15:59e2  prefixlen 64  scopeid 0x20<link>
+        ether 12:de:63:15:59:e2  txqueuelen 0  (Ethernet)
+        RX packets 5027  bytes 8727928 (8.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4621  bytes 325647 (325.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+--------------------------------------------------------------------------------
+route information
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         172.19.175.253  0.0.0.0         UG        0 0          0 eth0
+172.17.0.0      0.0.0.0         255.255.0.0     U         0 0          0 docker0
+172.19.160.0    0.0.0.0         255.255.240.0   U         0 0          0 eth0
+172.22.0.0      0.0.0.0         255.255.0.0     U         0 0          0 br-df66b860bd7e
+--------------------------------------------------------------------------------
+arp information
+_gateway (172.19.175.253) at ee:ff:ff:ff:ff:ff [ether] on eth0
+? (172.22.0.3) at 02:42:ac:16:00:03 [ether] on br-df66b860bd7e
+? (172.17.0.2) at 02:42:ac:11:00:02 [ether] on docker0
+--------------------------------------------------------------------------------
+information of processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.5 103756 11200 ?        -    Apr24   0:03 /sbin/init noibrs splash
+root           -  0.0    -      -     - -        Ss   Apr24   0:03 -
+root           2  0.0  0.0      0     0 ?        -    Apr24   0:00 [kthreadd]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root           3  0.0  0.0      0     0 ?        -    Apr24   0:00 [rcu_gp]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root           4  0.0  0.0      0     0 ?        -    Apr24   0:00 [rcu_par_gp]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root           6  0.0  0.0      0     0 ?        -    Apr24   0:00 [kworker/0:0H-kblockd]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root           9  0.0  0.0      0     0 ?        -    Apr24   0:00 [mm_percpu_wq]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root          10  0.0  0.0      0     0 ?        -    Apr24   0:00 [ksoftirqd/0]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root          11  0.0  0.0      0     0 ?        -    Apr24   0:20 [rcu_sched]
+root           -  0.0    -      -     - -        I    Apr24   0:20 -
+root          12  0.0  0.0      0     0 ?        -    Apr24   0:01 [migration/0]
+root           -  0.0    -      -     - -        S    Apr24   0:01 -
+root          13  0.0  0.0      0     0 ?        -    Apr24   0:00 [idle_inject/0]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root          14  0.0  0.0      0     0 ?        -    Apr24   0:00 [cpuhp/0]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root          15  0.0  0.0      0     0 ?        -    Apr24   0:00 [kdevtmpfs]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root          16  0.0  0.0      0     0 ?        -    Apr24   0:00 [netns]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root          17  0.0  0.0      0     0 ?        -    Apr24   0:00 [rcu_tasks_kthre]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root          18  0.0  0.0      0     0 ?        -    Apr24   0:00 [kauditd]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root          19  0.0  0.0      0     0 ?        -    Apr24   0:00 [khungtaskd]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root          20  0.0  0.0      0     0 ?        -    Apr24   0:00 [oom_reaper]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root          21  0.0  0.0      0     0 ?        -    Apr24   0:00 [writeback]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root          22  0.0  0.0      0     0 ?        -    Apr24   0:00 [kcompactd0]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root          23  0.0  0.0      0     0 ?        -    Apr24   0:00 [ksmd]
+root           -  0.0    -      -     - -        SN   Apr24   0:00 -
+root          24  0.0  0.0      0     0 ?        -    Apr24   0:00 [khugepaged]
+root           -  0.0    -      -     - -        SN   Apr24   0:00 -
+root         116  0.0  0.0      0     0 ?        -    Apr24   0:00 [kintegrityd]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         117  0.0  0.0      0     0 ?        -    Apr24   0:00 [kblockd]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         118  0.0  0.0      0     0 ?        -    Apr24   0:00 [blkcg_punt_bio]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         119  0.0  0.0      0     0 ?        -    Apr24   0:00 [tpm_dev_wq]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         120  0.0  0.0      0     0 ?        -    Apr24   0:00 [ata_sff]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         121  0.0  0.0      0     0 ?        -    Apr24   0:00 [md]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         122  0.0  0.0      0     0 ?        -    Apr24   0:00 [edac-poller]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         123  0.0  0.0      0     0 ?        -    Apr24   0:00 [devfreq_wq]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         124  0.0  0.0      0     0 ?        -    Apr24   0:00 [watchdogd]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root         127  0.0  0.0      0     0 ?        -    Apr24   0:00 [kswapd0]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root         128  0.0  0.0      0     0 ?        -    Apr24   0:00 [ecryptfs-kthrea]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root         131  0.0  0.0      0     0 ?        -    Apr24   0:00 [kthrotld]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         132  0.0  0.0      0     0 ?        -    Apr24   0:00 [acpi_thermal_pm]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         133  0.0  0.0      0     0 ?        -    Apr24   0:00 [scsi_eh_0]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root         134  0.0  0.0      0     0 ?        -    Apr24   0:00 [scsi_tmf_0]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         135  0.0  0.0      0     0 ?        -    Apr24   0:00 [scsi_eh_1]
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root         136  0.0  0.0      0     0 ?        -    Apr24   0:00 [scsi_tmf_1]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         138  0.0  0.0      0     0 ?        -    Apr24   0:00 [vfio-irqfd-clea]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         139  0.0  0.0      0     0 ?        -    Apr24   0:00 [ipv6_addrconf]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         151  0.0  0.0      0     0 ?        -    Apr24   0:00 [kstrp]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         155  0.0  0.0      0     0 ?        -    Apr24   0:00 [kworker/u3:0]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         171  0.0  0.0      0     0 ?        -    Apr24   0:00 [charger_manager]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         211  0.0  0.0      0     0 ?        -    Apr24   0:01 [kworker/0:1H-kblockd]
+root           -  0.0    -      -     - -        I<   Apr24   0:01 -
+root         232  0.0  0.0      0     0 ?        -    Apr24   0:01 [jbd2/vda1-8]
+root           -  0.0    -      -     - -        S    Apr24   0:01 -
+root         233  0.0  0.0      0     0 ?        -    Apr24   0:00 [ext4-rsv-conver]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+root         265  0.0  1.2  59820 26360 ?        -    Apr24   0:01 /lib/systemd/systemd-journald
+root           -  0.0    -      -     - -        S<s  Apr24   0:01 -
+root         296  0.0  0.2  21168  5156 ?        -    Apr24   0:00 /lib/systemd/systemd-udevd
+root           -  0.0    -      -     - -        Ss   Apr24   0:00 -
+systemd+     300  0.0  0.3  18668  8084 ?        -    Apr24   0:01 /lib/systemd/systemd-networkd
+systemd+       -  0.0    -      -     - -        Ss   Apr24   0:01 -
+root         346  0.0  0.0      0     0 ?        -    Apr24   0:00 [cryptd]
+root           -  0.0    -      -     - -        I<   Apr24   0:00 -
+systemd+     379  0.0  0.6  24068 12456 ?        -    Apr24   0:01 /lib/systemd/systemd-resolved
+systemd+       -  0.0    -      -     - -        Ss   Apr24   0:01 -
+root         400  0.0  0.3 238492  7284 ?        -    Apr24   0:04 /usr/lib/accountsservice/accounts-daemon
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:04 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root         411  0.0  0.1   9636  3232 ?        -    Apr24   0:00 /usr/sbin/cron -f
+root           -  0.0    -      -     - -        Ss   Apr24   0:00 -
+message+     412  0.0  0.2   7824  4692 ?        -    Apr24   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+message+       -  0.0    -      -     - -        Ss   Apr24   0:00 -
+root         418  0.0  0.8  31692 18000 ?        -    Apr24   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root           -  0.0    -      -     - -        Ss   Apr24   0:00 -
+syslog       421  0.0  0.2 224524  4988 ?        -    Apr24   0:00 /usr/sbin/rsyslogd -n -iNONE
+syslog         -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root         423  0.0  0.3  17380  8040 ?        -    Apr24   0:00 /lib/systemd/systemd-logind
+root           -  0.0    -      -     - -        Ss   Apr24   0:00 -
+daemon       424  0.0  0.1   4016  2360 ?        -    Apr24   0:00 /usr/sbin/atd -f
+daemon         -  0.0    -      -     - -        Ss   Apr24   0:00 -
+root         427  0.0  0.1 683888  3196 ?        -    Apr24   0:01 /usr/sbin/nscd
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root         459  0.0  0.2 100028  5444 ?        -    Apr24   0:00 /sbin/dhclient -1 -4 -v -i -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root         481  0.0  0.2  12824  5168 ?        -    Apr24   1:18 /usr/local/aegis/aegis_update/AliYunDunUpdate
+root           -  0.0    -      -     - -        Ssl  Apr24   0:03 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:27 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:28 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:19 -
+root         496  0.0  0.3 232828  6380 ?        -    Apr24   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root         681  0.0  0.2  32828  4616 ?        -    Apr24   4:10 /usr/sbin/aliyun-service
+root           -  0.0    -      -     - -        Ssl  Apr24   0:02 -
+root           -  0.0    -      -     - -        Ssl  Apr24   3:25 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:42 -
+root         689  0.0  1.0 110552 20548 ?        -    Apr24   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root         695  0.0  2.2 760388 44848 ?        -    Apr24   1:50 /usr/bin/containerd
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:26 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:33 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:07 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:42 -
+root         696  0.0  4.2 798620 86944 ?        -    Apr24   1:10 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:08 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:23 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:16 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:22 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root         714  0.0  0.0   8332   724 ttyS0    -    Apr24   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root           -  0.0    -      -     - -        Ss+  Apr24   0:00 -
+_chrony      717  0.0  0.1  13344  2836 ?        -    Apr24   0:00 /usr/sbin/chronyd -F -1
+_chrony        -  0.0    -      -     - -        S    Apr24   0:00 -
+_chrony      720  0.0  0.0   5228   280 ?        -    Apr24   0:00 /usr/sbin/chronyd -F -1
+_chrony        -  0.0    -      -     - -        S    Apr24   0:00 -
+root         721  0.0  0.0   8560   720 tty1     -    Apr24   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root           -  0.0    -      -     - -        Ss+  Apr24   0:00 -
+root         791  0.0  0.0   2488   516 ?        -    Apr24   0:00 bpfilter_umh
+root           -  0.0    -      -     - -        S    Apr24   0:00 -
+root        1000  0.0  0.3  12504  7396 ?        -    Apr24   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root           -  0.0    -      -     - -        Ss   Apr24   0:00 -
+root        1012  0.6  1.1 112588 22528 ?        -    Apr24  36:54 /usr/local/aegis/aegis_client/aegis_10_79/AliYunDun
+root           -  0.0    -      -     - -        S<sl Apr24   3:01 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:18 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:19 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:55 -
+root           -  0.1    -      -     - -        S<sl Apr24   7:47 -
+root           -  0.0    -      -     - -        S<sl Apr24   1:22 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:00 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:04 -
+root           -  0.0    -      -     - -        S<sl Apr24   1:26 -
+root           -  0.0    -      -     - -        S<sl Apr24   2:00 -
+root           -  0.0    -      -     - -        S<sl Apr24   3:28 -
+root           -  0.0    -      -     - -        S<sl Apr24   2:35 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:04 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:11 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:04 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:26 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:01 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:04 -
+root           -  0.0    -      -     - -        S<sl Apr24   3:30 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:46 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:39 -
+root           -  0.0    -      -     - -        S<sl Apr24   0:44 -
+root           -  0.0    -      -     - -        S<sl Apr24   3:25 -
+root           -  0.0    -      -     - -        S<sl Apr24   3:29 -
+root        1544  0.0  0.1 401472  3824 ?        -    Apr24   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 2333 -container-ip 172.17.0.2 -container-port 80
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root        1552  0.0  0.2 107696  4576 ?        -    Apr24   0:06 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/7fd192259cc00f796996e2dd51998756e4a66dcc3f8ab6230aa79f661da0a685 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:02 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:02 -
+root        1569  0.0  0.2   5940  4316 ?        -    Apr24   0:00 nginx: master process nginx -g daemon off;
+root           -  0.0    -      -     - -        Ss   Apr24   0:00 -
+systemd+    1615  0.0  0.0   6380  1832 ?        -    Apr24   0:00 nginx: worker process
+systemd+       -  0.0    -      -     - -        S    Apr24   0:00 -
+root        1650  0.0  0.1 475204  4060 ?        -    Apr24   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 2335 -container-ip 172.22.0.2 -container-port 5432
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root        1658  0.0  0.2 107696  4948 ?        -    Apr24   0:06 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/e73f0460a8555e5450deadfd3bfa8bb6bd6ea5dcdced4f0643497afb628fa4af -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:03 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:03 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+70          1679  0.0  1.0 191988 20536 ?        -    Apr24   0:02 postgres
+70             -  0.0    -      -     - -        Ss   Apr24   0:02 -
+70          1758  0.0  0.1 191988  2784 ?        -    Apr24   0:00 postgres: checkpointer
+70             -  0.0    -      -     - -        Ss   Apr24   0:00 -
+70          1759  0.0  0.1 191988  2836 ?        -    Apr24   0:04 postgres: background writer
+70             -  0.0    -      -     - -        Ss   Apr24   0:04 -
+70          1760  0.0  0.3 191988  7440 ?        -    Apr24   0:04 postgres: walwriter
+70             -  0.0    -      -     - -        Ss   Apr24   0:04 -
+70          1761  0.0  0.2 192520  5356 ?        -    Apr24   0:01 postgres: autovacuum launcher
+70             -  0.0    -      -     - -        Ss   Apr24   0:01 -
+70          1762  0.0  0.1  46368  2468 ?        -    Apr24   0:04 postgres: stats collector
+70             -  0.0    -      -     - -        Ss   Apr24   0:04 -
+70          1763  0.0  0.1 192416  3644 ?        -    Apr24   0:00 postgres: logical replication launcher
+70             -  0.0    -      -     - -        Ss   Apr24   0:00 -
+root        1799  0.0  0.1 475204  3992 ?        -    Apr24   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 2334 -container-ip 172.22.0.3 -container-port 2334
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root        1807  0.0  0.2 107696  5908 ?        -    Apr24   0:06 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/94a5601b275959bf859f19979251fbe34c95253f776609f0abac34f485bfd90a -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:02 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:02 -
+root           -  0.0    -      -     - -        Sl   Apr24   0:00 -
+root        1828  0.0  0.2 297012  5300 ?        -    Apr24   0:00 ./homestay_backend
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+root           -  0.0    -      -     - -        Ssl  Apr24   0:00 -
+70          1892  0.0  0.5 193696 11344 ?        -    Apr24   0:00 postgres: evian homestay 172.22.0.3(34534) idle
+70             -  0.0    -      -     - -        Ss   Apr24   0:00 -
+root       12255  0.0  0.0      0     0 ?        -    Apr27   0:35 [kworker/0:1-events]
+root           -  0.0    -      -     - -        I    Apr27   0:35 -
+root       14633  0.0  0.0      0     0 ?        -    09:20   0:00 [kworker/u2:2-events_power_efficient]
+root           -  0.0    -      -     - -        I    09:20   0:00 -
+root       14710  0.0  0.0      0     0 ?        -    09:50   0:00 [kworker/u2:0-events_unbound]
+root           -  0.0    -      -     - -        I    09:50   0:00 -
+root       14711  0.0  0.4  14300  8912 ?        -    09:50   0:00 sshd: evian [priv]
+root           -  0.0    -      -     - -        Ss   09:50   0:00 -
+evian      14722  0.0  0.4  18420  9576 ?        -    09:50   0:00 /lib/systemd/systemd --user LANG=en_US.UTF-8 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin NOTIFY_SOCKET=/run/systemd/notify HOME=/home/evian LOGNAME=evian USER=evian SHELL=/usr/bin/zsh INVOCATION_ID=522d4f7ea6d84c3cb97d9563ad69e941 JOURNAL_STREAM=9:135805 XDG_RUNTIME_DIR=/run/user/1000
+evian          -  0.0    -      -     - -        Ss   09:50   0:00 -
+evian      14723  0.0  0.1 103160  2908 ?        -    09:50   0:00 (sd-pam)
+evian          -  0.0    -      -     - -        S    09:50   0:00 -
+root       14724  0.0  0.0      0     0 ?        -    09:50   0:00 [kworker/0:2]
+root           -  0.0    -      -     - -        I    09:50   0:00 -
+evian      14751  0.0  0.2  14300  4740 ?        -    09:50   0:00 sshd: evian@pts/0
+evian          -  0.0    -      -     - -        S    09:50   0:00 -
+evian      14752  0.2  0.3  16908  7500 pts/0    -    09:50   0:01 -zsh LC_TERMINAL_VERSION=3.3.9 LANG=en_US.UTF-8 LC_TERMINAL=iTerm2 LC_CTYPE=zh_CN.UTF-8 USER=evian LOGNAME=evian HOME=/home/evian PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games SHELL=/usr/bin/zsh TERM=xterm-256color XDG_SESSION_ID=689 XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_SESSION_TYPE=tty XDG_SESSION_CLASS=user MOTD_SHOWN=pam SSH_CLIENT=112.1.49.10 4235 22 SSH_CONNECTION=112.1.49.10 4235 172.19.160.29 22 SSH_TTY=/dev/pts/0
+evian          -  0.2    -      -     - -        Ss   09:50   0:01 -
+root       15368  0.0  0.0      0     0 ?        -    09:57   0:00 [kworker/u2:1-events_power_efficient]
+root           -  0.0    -      -     - -        I    09:57   0:00 -
+evian      15417  0.0  0.1  11580  3280 pts/0    -    09:59   0:00 ps auxwwem LC_TERMINAL_VERSION=3.3.9 LANG=en_US.UTF-8 LC_TERMINAL=iTerm2 USER=evian LOGNAME=evian HOME=/home/evian PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games SHELL=/usr/bin/zsh TERM=xterm-256color XDG_SESSION_ID=689 XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_SESSION_TYPE=tty XDG_SESSION_CLASS=user MOTD_SHOWN=pam SSH_CLIENT=112.1.49.10 4235 22 SSH_CONNECTION=112.1.49.10 4235 172.19.160.29 22 SSH_TTY=/dev/pts/0 SHLVL=1 PWD=/home/evian OLDPWD=/home/evian ZSH=/home/evian/.oh-my-zsh PAGER=less LESS=-R LSCOLORS=Gxfxcxdxbxegedabagacad LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: LC_CTYPE=zh_CN.UTF-8 _=/bin/ps
+evian          -  0.0    -      -     - -        R+   09:59   0:00 -
